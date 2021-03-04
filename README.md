@@ -26,7 +26,7 @@
 |  area             |  string     |  null:  false       |
 |  instrument       |  string     |  null:  false       | 
 |  gender_id        |  integer    |  null:  false       |
-|  direction_id     |  integer    |  null:  false       |
+|  direction        |  string    |  null:  false       |
 |  profile          |  text       |  null:  false       |
 
 + has_many :recruits
@@ -40,7 +40,7 @@
 |  title            |  text       |  null:  false       |
 |  text             |  text       |  null:  false       |
 |  instrument       |  string     |  null:  false       |
-|  direction_id     |  integer    |  null:  false       |
+|  direction        |  string     |  null:  false       |
 |  area             |  string     |  null:  false       |
 |  frequency        |  string     |  null:  false       | 
 |  user             |  reference  |  foreign_key: true  |
